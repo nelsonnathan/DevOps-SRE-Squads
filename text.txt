@@ -1,0 +1,39 @@
+Software Builds -
+*A software build results from the prep, installation, compiling, and maybe assembly of the source code for a project.
+*Following that, a release is a build that's passed the testing.
+*A deploy is the release that's ready to go live for users.
+
+Code Dependencies -
+1. Express
+2. Cors
+3. Jest
+4. Mongoose
+5. Morgan
+6. Bootstrap
+7. Koa
+8. Restify
+9. Axios
+10. Bunyan
+
+What is DevOps philosophy? -
+DevOps is the idea that writing and running code in multiple environments ought to go hand in hand
+
+The principles of DevOps? -
+
+Environments
+*Production is the server live to the public
+*Staging is the internal copy of the production server that is not public
+*Local is a dev's own computer or virtual machine that all the devs on a project share
+
+CI/CD 
+*Continuous Integration: For each contribution, automatically checks the code passes tests and runs in the production environment
+*Continuous Delivery: Frequently deploys new builds to stage 
+
+Automation
+*In the build process, automatically ensures code can run successfully in production
+*In the production server, automatically tracks errors and issues as users interact with the software
+*Monitoring to learn how users are interacting with the software to get ahead of potential issues and possible improvements that can be made
+*Scaling in the case of increased user/request volume on the server
+
+Collaboration and Joint Ownership
+*Taking responsibility for issues related to builds and releases
